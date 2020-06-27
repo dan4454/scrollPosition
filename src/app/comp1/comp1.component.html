@@ -1,0 +1,13 @@
+Value of name in comp1: {{person.name}}
+
+<br><br>
+Value of name in comp2: {{ff.person2.name}}
+
+<hr>
+
+<app-comp2 [person]  = 'person' (ev) = 'changed($event)'
+  #ff
+  [parent] = 'this'
+></app-comp2>
+
+<button (click) = 'ff.call22(person)'>call22</button>

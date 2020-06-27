@@ -1,0 +1,9 @@
+<h3>Comp3</h3>
+
+<div style='position:fixed; right:0px; top:0px;'>
+<button (click) = 'reShow()'>Remove comp4</button><br>
+</div>
+
+<app-comp4 *ngIf = ' showChild == true '></app-comp4>
+
+<button (click) = ' showAgain() ' *ngIf = 'showChild==false'>Show comp4 again</button>
