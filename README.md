@@ -2,10 +2,8 @@
 
 This project requires a little (lot!) more work to make it obvious to anybody else what is going on. I finally found this again after looking for it all over my computer.
 
-Adding something on what is now line 5
 
 ## IMPORTANT: This worked on stackblitz, but not when I put on my local computer to use with Angular 9. Weird!
 
 https://stackblitz.com/edit/a5465?file=src%2Fapp%2Fcomp3%2Fcomp3.component.ts
 
-line 9 addition locally
