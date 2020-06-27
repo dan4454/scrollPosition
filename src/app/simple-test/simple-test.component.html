@@ -4,6 +4,10 @@
     <button (click) = 'reset()'>Reset</button>
 </div>
 
+<div *ngIf = '!visible'>
+    Some stuff that replaces the list. For example, an input form here... or another component entirely.
+</div>
+
 <div *ngIf = 'visible'>
 <!-- <div [hidden] = '!visible' id = 'id1'> -->
 

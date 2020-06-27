@@ -23,7 +23,7 @@ export class SimpleTestComponent implements OnInit {
   }
 
   reset() {
-    window.document.documentElement.scrollTop = this.pos;
+    window.scrollTo(0, this.pos);
 
   }
 

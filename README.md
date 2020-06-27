@@ -11,7 +11,9 @@ See the stackblitz version here: https://stackblitz.com/edit/a5465
 
 I found a recommendation to use window.scrollTo(x, y) and it works! You still have to use the timer to give the browser time to display the screen fully again, though. But that's no big deal.
 
-See the component **simple-test**
+See the component **simple-test**.
+
+I have updated the stackblitz app to use scrollTo and it still works fine there.
 
 
 
