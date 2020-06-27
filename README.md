@@ -5,5 +5,5 @@ This project requires a little (lot!) more work to make it obvious to anybody el
 
 ## IMPORTANT: This worked on stackblitz, but not when I put on my local computer to use with Angular 9. Weird!
 
-https://stackblitz.com/edit/a5465?file=src%2Fapp%2Fcomp3%2Fcomp3.component.ts
+See the stackblitz version here:  https://stackblitz.com/edit/a5465?file=src%2Fapp%2Fcomp3%2Fcomp3.component.ts
 
