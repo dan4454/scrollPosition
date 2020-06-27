@@ -6,3 +6,4 @@ This project requires a little (lot!) more work to make it obvious to anybody el
 
 https://stackblitz.com/edit/a5465?file=src%2Fapp%2Fcomp3%2Fcomp3.component.ts
 
+line 9 addition locally
