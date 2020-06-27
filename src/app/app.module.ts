@@ -9,10 +9,11 @@ import { Comp2Component } from './comp2/comp2.component';
 import { MainComponent } from './main/main.component';
 import { Comp3Component } from './comp3/comp3.component';
 import { Comp4Component } from './comp4/comp4.component';
+import { SimpleTestComponent } from './simple-test/simple-test.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, Comp1Component, Comp2Component, MainComponent, Comp3Component, Comp4Component ],
+  declarations: [ AppComponent, HelloComponent, Comp1Component, Comp2Component, MainComponent, Comp3Component, Comp4Component, SimpleTestComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

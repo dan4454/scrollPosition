@@ -22,10 +22,10 @@ export class Comp3Component implements OnInit {
 
   showAgain() {
     this.showChild = true;
-    window.document.documentElement.scrollTop = this.pos;
     setTimeout(() => {
       // console.log("hello");
-    }, 2000);
+      window.document.documentElement.scrollTop = this.pos;
+    }, 20);
     // alert('a');
   }
 }
